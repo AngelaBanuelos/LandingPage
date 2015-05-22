@@ -1,0 +1,38 @@
+body{
+	background-color: blue;
+}
+#contact{
+	background-color: pink;
+}
+#projects{
+	background-color: orange;
+}
+#letter{
+
+	text-align: center;
+	font-size: 150px;
+	color:black;
+}
+#bar1{
+	height: 2000px;
+	width: 100%;
+	/*background-color: gray;*/
+	border: 1px solid black;
+}
+/*#sidebar1{
+	width: 1px;
+	height: 100px;
+	background-color: orange;
+	text-align: center;
+	border: 1px solid black;
+}
+#sidebar2{
+	width: 1px;
+	height: 100px;
+	background-color: orange;
+	margin-left: 1000px;
+	margin-bottom: 50px;
+	border: 1px solid black;
+
+}
+*/
