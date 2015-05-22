@@ -1,5 +1,5 @@
 body{
-	background-color: blue;
+	background-color: #E9C6AE;
 }
 #contact{
 	background-color: pink;
@@ -14,25 +14,77 @@ body{
 	color:black;
 }
 #bar1{
-	height: 2000px;
+	height: 100%;
 	width: 100%;
 	/*background-color: gray;*/
 	border: 1px solid black;
 }
-/*#sidebar1{
-	width: 1px;
-	height: 100px;
-	background-color: orange;
+#la{
+	color: white;
 	text-align: center;
-	border: 1px solid black;
+	font-size: 18pt;
+	margin-top: 40px;
+	font-family: 'Slabo 27px', serif;
 }
-#sidebar2{
-	width: 1px;
-	height: 100px;
-	background-color: orange;
-	margin-left: 1000px;
-	margin-bottom: 50px;
-	border: 1px solid black;
+hr{
+	width: 12%;
+	border: 0;
+	border-top: 1px solid #FFF;
+	display: inline-block;
+}
+.circular {
+    margin-left: 500px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url("http://www.hiphopdx.com//images/news/1-1-2-JCole_304.jpg") no-repeat;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    color: black;
+}
+#footer{
+padding-left: 900px;
+height: 100px;
+}
+
+.socials li{
+   opacity:.8;
+   -webkit-transition: -webkit-all 1.4s ease;
+   -moz-transition: -moz-all 1.4s ease;
+   -o-transition: -o-all 1.4s ease;
+   transition: all 1.4s ease;
+   display:inline-block;
+   padding:15px 5px 10px 20px;
+   background-color:#a9a9a9;
+   width:55px;
+  margin:0 5px;
+   border-radius:50%;
+   font-size:2.9em;
 
 }
-*/
+.socials li:hover{
+   -webkit-transform:scale(1.5) rotate(360deg);
+   -moz-transform: scale(1.5) rotate(360deg);
+   -o-transform: scale(1.5) rotate(360deg);
+   -ms-transform: scale(1.5) rotate(360deg);
+   transform: scale(1.5) rotate(360deg);
+   color:red;
+   opacity:1;
+   cursor:pointer;
+  box-shadow:1px 1px 5px #000;
+}
+#f:hover{
+  color:#00008B;
+}
+#t:hover{
+  color:#6495ED;
+}
+.socials{
+  list-style:none;
+}
