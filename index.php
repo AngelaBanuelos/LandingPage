@@ -13,14 +13,21 @@
 	<hr>
 		<span>
 	</hr>	
-			Los Angeles, California
+			<!-- Los Angeles, California -->
+		<a href="contact.php"> Contact</a>
+		<a href="Projects.php"> Projects</a>
 	<hr>		
 		</span>
 	</hr>
 </div>
-<div class="circular"></div>
+<div class="circular">
+<li id="f"><a href="http://facebook.com"><i class="fa fa-facebook"></a></i></li>
+</div>
+<div id="bar2"></div>
 <footer id="footer">
+
 	<div class="soc">
+
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 <ul class="socials">
  

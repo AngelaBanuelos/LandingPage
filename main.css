@@ -11,16 +11,20 @@ body{
 
 	text-align: center;
 	font-size: 150px;
-	color:black;
+	color: black;
 }
 #bar1{
 	height: 100%;
 	width: 100%;
 	/*background-color: gray;*/
-	border: 1px solid black;
+	border: 3px solid black;
+	    border-radius: 150px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+
 }
 #la{
-	color: white;
+	color: black;
 	text-align: center;
 	font-size: 18pt;
 	margin-top: 40px;
@@ -28,14 +32,15 @@ body{
 }
 hr{
 	width: 12%;
+
 	border: 0;
-	border-top: 1px solid #FFF;
+	border-top: 1px solid black;
 	display: inline-block;
 }
 .circular {
     margin-left: 500px;
     margin-top: 50px;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
     text-align: center;
     width: 300px;
     height: 300px;
@@ -47,6 +52,17 @@ hr{
     -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
     -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
     color: black;
+}
+#bar2{
+	height: 1px;
+	width: 850px;
+	margin-left: 230px;
+	margin-bottom: 20px;
+	background-color: black;
+	    border-radius: 150px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+	border: 1px solid black;
 }
 #footer{
 padding-left: 900px;
