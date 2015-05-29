@@ -20,36 +20,80 @@
 		</span>
 	</hr>
 </div>
-<p >
+
+
+<div class="image-container image-container-num1">
+  <div class="image image-num1">
+    <img <p id="pic1" >
 <a href="http://localhost/blog/index.php">
-<img src="blog.png" alt="Go to W3Schools!" width="200" height="200" border="0">
+<img src="blog.png" alt="Go to W3Schools!" width="200" height="100%" border="0">
 </a>
-</p>
-<p >
-<a href="http://localhost/todo-list/index.php">
-<img src="todo1.png" alt="Go to W3Schools!" width="200" height="200" border="0">
-</a>
-</p>
-<p >
+</p> />
+  </div>
+  <div class="caption caption-num1">
+    <span class="bottom">............Blog Project</span>
+  </div>
+</div><br class="break">
+<div class="image-container image-container-num2">
+  <div class="image image-num2">
+    <img <p id="pic3">
 <a href="http://localhost/todo2/index.php">
 <img src="todo2.png" alt="Go to W3Schools!" width="200" height="200" border="0">
 </a>
-</p>
-<p >
-<a href="http://localhost/awesomenauts/index.php">
-<img src="awesomenauts.png" alt="Go to W3Schools!" width="200" height="200" border="0">
+</p> />
+  </div>
+  <div class="caption caption-num2">
+    To-Do List 1
+  </div>
+</div><br class="break">
+<div class="image-container image-container-num3">
+  <div class="image image-num3">
+    <img <p id="pic2">
+<a href="http://localhost/todo-list/index.php">
+<img src="todo1.png" alt="Go to W3Schools!" width="400" height="100%" border="0">
 </a>
-</p>
-<p >
+</p> />
+  </div><br class="break">
+  <div class="caption caption-num3">
+    Release Your Mind
+  </div>
+</div><br class="break">
+<div class="image-container image-container-num4">
+  <div class="image image-num4">
+    <img <p id="pic5">
 <a href="http://localhost/myapi/index.php">
 <img src="myapi.png" alt="Go to W3Schools!" width="200" height="200" border="0">
 </a>
-</p>
-<p >
+</p> />
+  </div>
+  <div class="caption caption-num4">
+    Music Shapes Us
+  </div><br class="break">
+</div><br class="break">
+<div class="image-container image-container-num5">
+  <div class="image image-num5">
+    <img <p id="pic4">
+<a href="http://localhost/awesomenauts/index.php">
+<img src="awesomenauts.png" alt="Go to W3Schools!" width="200" height="200" border="0">
+</a>
+</p> />
+  </div>
+  <div class="caption caption-num5">
+    Laughter is Happiness
+  </div>
+</div><br class="break">
+<div class="image-container image-container-num6">
+  <div class="image image-num6">
+    <img <p id="pic6" >
 <a href="http://localhost/Me/index.html">
 <img src="me.png" alt="Go to W3Schools!" width="200" height="200" border="0">
 </a>
-</p>
+</p> />
+  </div>
+  <div class="caption caption-num6">
+  Sweater Weather
+  </div>
+</div>
 <div id="bar2"></div>
 <footer id="footer">
 
