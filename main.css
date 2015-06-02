@@ -1,17 +1,51 @@
-body{
-	background-color: #E9C6AE;
+#body{
+/*	background-color: #E9C6AE;*/
+background-image: url("http://hdwallpapersfit.com/wp-content/uploads/2015/02/flwoers-tumblr-hipster-wallpapers.jpg");
+		font-family: 'Lobster', cursive;
+       background-size:   cover;                      /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center; 
+  }
+#words{
+text-align: center;
+font-size: 30px;
+
 }
 #contact{
 	background-color: pink;
 }
-#projects{
-	background-color: orange;
+#contactbar{
+  height: 645px;
+
+  border: 3px solid black;
+      border-radius: 150px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+
 }
+#projects{
+	background-image: url("https://download.unsplash.com/photo-1415045384817-2f9cf7f2ed79");
+   background-size:   cover;                      /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+.form1{
+  background-image: url("https://ununsplash.imgix.net/photo-1428699190791-2c4f8b144d06?fit=crop&fm=jpg&q=75&w=1050");
+  background-size:   cover;                      /* <------ */
+  background-repeat: no-repeat;
+  background-position: center center; 
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Lobster', cursive;
+}
+
 #letter{
 
 	text-align: center;
 	font-size: 150px;
-	color: black; hog
+	color: black;
+	font-family: 'Lobster', cursive;
 }
 #bar1{
 	height: 100%;
@@ -24,17 +58,49 @@ body{
 
 }
 #la{
-	color: black;
+
 	text-align: center;
-	font-size: 18pt;
+	font-size: 24px;
 	margin-top: 40px;
 	font-family: 'Slabo 27px', serif;
+  font-family: 'Lobster', cursive;
 }
+a:-webkit-any-link {
+  color: #BD8EAC;
+  text-decoration: none;
+  font-size: 45px;
+  }
+
+input[type="submit"] {
+  font-family: Verdana,"Rockwell",Helvetica,Serif;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  margin: 450px 30px 30px 630px;
+  font-size: 20px;
+  width: 120px;
+  height: 120px;
+  background: #fff;
+  padding: 10px;
+  border: 0;
+  outline: 0;
+  border-radius: 50%;
+  color: #171717;
+  transition: all 200ms;
+}
+input[type="submit"]:focus {
+  background: transparent;
+  color: transparent;
+  border: none;
+  transform: translateZ(0);
+  border-top: solid 3px #f8a;
+  border-left: solid 3px #fff;
+  animation: spin 700ms linear infinite;
+}
+@keyframes spin {100% {transform: rotate(360deg);}}
 hr{
 	width: 12%;
-
 	border: 0;
-	border-top: 1px solid black;
+	border-top: 3px solid black;
 	display: inline-block;
 }
 .circular {
@@ -47,7 +113,8 @@ hr{
     border-radius: 150px;
     -webkit-border-radius: 150px;
     -moz-border-radius: 150px;
-    background: url("http://www.hiphopdx.com//images/news/1-1-2-JCole_304.jpg") no-repeat;
+    background: url("http://www.topvinylfilms.com/images/products/fsg16.jpg");
+  /*  background-repeat: no-repeat;*/
     box-shadow: 0 0 8px rgba(0, 0, 0, .8);
     -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
     -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
@@ -112,17 +179,18 @@ height: 100px;
 .image-container {
   display: inline-block;
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   overflow: hidden;
   background: black;
   cursor: pointer;
   color: white;
+  margin: 20px 20px 20px 100px;
 }
 
 .image {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   z-index: 1;
   transition: all .5s;
 }
@@ -132,7 +200,7 @@ height: 100px;
 }
 
 .caption {
-  width: 200px;
+  width: 300px;
   height: auto;
   padding-top: 10px;
   padding-bottom: 10px;

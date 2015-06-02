@@ -1,52 +1,71 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" type="text/css" href="main.css">
-	<title></title>
+<head>    
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 </head>
-<body id="contact">
-<div class="page" id="contact"> 
-
-      <!-- page contact -->
-
-      <h3 class="page_title"> Let's Get in Touch</h3>
-
-      <div class="page_content">
-
-        <fieldset id="contact_form">
-
-          <div id="msgs"> </div>
-
-          <form id="cform" name="cform" method="post" action="">
-
-            <input type="text" id="name" name="name" value="Full Name*" onfocus="if(this.value == 'Full Name*') this.value = ''"
-
-                            onblur="if(this.value == '') this.value = 'Full Name*'" />
-
-            <input type="text" id="email" name="email" value="Email Address*" onfocus="if(this.value == 'Email Address*') this.value = ''"
-
-                            onblur="if(this.value == '') this.value = 'Email Address*'" />
-
-            <input type="text" id="subject" name="subject" value="Subject*" onfocus="if(this.value == 'Subject*') this.value = ''"
-
-                            onblur="if(this.value == '') this.value = 'Subject*'" />
-
-            <textarea id="msg" name="message" onfocus="if(this.value == 'Your Message*') this.value = ''"
-
-                            onblur="if(this.value == '') this.value = 'Your Message*'">Your Message*</textarea>
-
-            <button id="submit" class="button"><a href="mailto: banuelosangela56@gmail.com">Jon Doe</a> Send Message</button>
-
-          </form>
+<body class="form1">
+<div id="contactbar"> 
 
 
-<!--Dynamically creates analytics markup-->
-<!-- <address>
-Written by <a href="mailto: banuelosangela56@gmail.com">Jon Doe</a>.<br> 
-Visit us at:<br>
-Example.com<br>
-Box 564, Disneyland<br>
-USA
-</address> -->
+<?php
+    require_once(__DIR__ . "/./model/config.php");
+
+ ?>
+<div id="la">
+    <hr>
+        <span>
+    </hr>   
+            <!-- Los Angeles, California -->
+        <a  href="index.php"> Home -</a>
+        <a href="Projects.php"> Projects</a>
+
+    <hr>        
+        </span>
+    </hr>
+</div>
+
+
+<h1>Contact Me</h1>
+
+<!-- form takes in information and send it to the table -->
+<form method="post" action="<?php echo $path . "controller/create-post.php"; ?>">
+    <div>
+        <!-- label display in front of the text box -->
+        <label for="first">First Name: </label>
+        <!-- input box occupied only on one line -->
+        <input type="text" name="first" />
+    </div>
+    <div>
+        <!-- label display in front of the text box -->
+        <label for="last">Last Name: </label>
+        <!-- input box occupied only on one line -->
+        <input type="text" name="last" />
+    </div>
+    <div>
+        <!-- label display in front of the text box -->
+        <label for="email">Email: </label>
+        <!-- input box occupied only on one line -->
+        <input type="text" name="email" />
+    </div>
+    
+    <div>
+        <!-- another box label post -->
+        <label for="post">Post: </label>
+        
+        <!-- text area allows to type a lot a text and span many lines   -->
+        <!-- text area can show on multiple lines and can be expanded -->
+        <textarea name="post"></textarea>
+    </div>
+        
+    <div>
+        <!-- create a button called submit -->
+        <!-- <button type="submit">Submit</button> -->
+        <input id="submit" type="submit"/>
+
+    </div>
+</form>
+
 </body>
+</div>
 </html>

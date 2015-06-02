@@ -2,20 +2,22 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="main.css">
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 	<title></title>
 </head>
 <body id="projects">
 <div id="bar1">	
 	<div id="letter">
-	A
+	Projects 
 	</div>
 <div id="la">
 	<hr>
 		<span>
 	</hr>	
 			<!-- Los Angeles, California -->
-		<a href="contact.php"> Contact</a>
-		<a href="Projects.php"> Projects</a>
+		<a href="contact.php"> Contact -</a>
+
+		<a href="index.php"> Home </a>
 	<hr>		
 		</span>
 	</hr>
@@ -26,7 +28,7 @@
   <div class="image image-num1">
     <img <p id="pic1" >
 <a href="http://localhost/blog/index.php">
-<img src="blog.png" alt="Go to W3Schools!" width="200" height="100%" border="0">
+<img src="blog.png" alt="Go to W3Schools!" width="100%" height="100%" border="0">
 </a>
 </p> />
   </div>
@@ -38,7 +40,7 @@
   <div class="image image-num2">
     <img <p id="pic3">
 <a href="http://localhost/todo2/index.php">
-<img src="todo2.png" alt="Go to W3Schools!" width="200" height="200" border="0">
+<img src="todo2.png" alt="Go to W3Schools!" width="100%" height="100%" border="0">
 </a>
 </p> />
   </div>
@@ -50,7 +52,7 @@
   <div class="image image-num3">
     <img <p id="pic2">
 <a href="http://localhost/todo-list/index.php">
-<img src="todo1.png" alt="Go to W3Schools!" width="400" height="100%" border="0">
+<img src="todo1.png" alt="Go to W3Schools!" width="100%" height="100%" border="0">
 </a>
 </p> />
   </div><br class="break">
@@ -62,7 +64,7 @@
   <div class="image image-num4">
     <img <p id="pic5">
 <a href="http://localhost/myapi/index.php">
-<img src="myapi.png" alt="Go to W3Schools!" width="200" height="200" border="0">
+<img src="myapi.png" alt="Go to W3Schools!" width="100%" height="100%" border="0">
 </a>
 </p> />
   </div>
@@ -72,11 +74,11 @@
 </div><br class="break">
 <div class="image-container image-container-num5">
   <div class="image image-num5">
-    <img <p id="pic4">
-<a href="http://localhost/awesomenauts/index.php">
-<img src="awesomenauts.png" alt="Go to W3Schools!" width="200" height="200" border="0">
+    <img <p id="pic6" >
+<a href="http://localhost/Me/index.html">
+<img src="me.png" alt="Go to W3Schools!" width="100%" height="100%" border="0">
 </a>
-</p> />
+</p>  />
   </div>
   <div class="caption caption-num5">
     Laughter is Happiness
@@ -84,11 +86,11 @@
 </div><br class="break">
 <div class="image-container image-container-num6">
   <div class="image image-num6">
-    <img <p id="pic6" >
-<a href="http://localhost/Me/index.html">
-<img src="me.png" alt="Go to W3Schools!" width="200" height="200" border="0">
+    <img <p id="pic4">
+<a href="http://localhost/awesomenauts/index.php">
+<img src="awesomenauts.png" alt="Go to W3Schools!" width="100%" height="100%" border="0">
 </a>
-</p> />
+</p>  />
   </div>
   <div class="caption caption-num6">
   Sweater Weather

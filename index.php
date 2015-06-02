@@ -2,26 +2,32 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="main.css">
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 	<title></title>
 </head>
-<body>
+<body id="body">
 <div id="bar1">	
 	<div id="letter">
 	A
+	
+	</div>
+<div id="words">
+	A rising Developer
 	</div>
 <div id="la">
 	<hr>
 		<span>
 	</hr>	
 			<!-- Los Angeles, California -->
+				<a href="Projects.php"> Projects -</a>
 		<a href="contact.php"> Contact</a>
-		<a href="Projects.php"> Projects</a>
+	
 	<hr>		
 		</span>
 	</hr>
 </div>
 <div class="circular">
-<li id="f"><a href="http://facebook.com"><i class="fa fa-facebook"></a></i></li>
+
 </div>
 <div id="bar2"></div>
 <footer id="footer">
