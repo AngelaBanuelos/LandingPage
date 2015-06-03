@@ -45,7 +45,7 @@
 </p> />
   </div>
   <div class="caption caption-num2">
-    To-Do List 1
+    To-Do List 2
   </div>
 </div><br class="break">
 <div class="image-container image-container-num3">
@@ -57,7 +57,7 @@
 </p> />
   </div><br class="break">
   <div class="caption caption-num3">
-    Release Your Mind
+  To-Do List 1
   </div>
 </div><br class="break">
 <div class="image-container image-container-num4">
@@ -69,7 +69,7 @@
 </p> />
   </div>
   <div class="caption caption-num4">
-    Music Shapes Us
+  My Api Project 
   </div><br class="break">
 </div><br class="break">
 <div class="image-container image-container-num5">
@@ -81,7 +81,7 @@
 </p>  />
   </div>
   <div class="caption caption-num5">
-    Laughter is Happiness
+    Me Project 
   </div>
 </div><br class="break">
 <div class="image-container image-container-num6">
@@ -93,7 +93,7 @@
 </p>  />
   </div>
   <div class="caption caption-num6">
-  Sweater Weather
+Awsomenauts
   </div>
 </div>
 <div id="bar2"></div>
